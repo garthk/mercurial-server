@@ -1,0 +1,3 @@
+#!/bin/sh
+# hack around refresh-auth not working on an ONBUILD RUN:
+su -s /bin/sh hg -c /usr/share/mercurial-server/refresh-auth
